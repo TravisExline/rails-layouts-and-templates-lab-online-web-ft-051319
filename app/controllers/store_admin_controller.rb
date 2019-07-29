@@ -8,6 +8,6 @@ class StoreAdminController < ApplicationController
   end
 
   def invoice
-    render :layour => false
+    render :layout => false
   end
 end
